@@ -63,10 +63,28 @@ Y= A⊕B
 
 
 **PROGRAM**
-![Screenshot (1)](https://github.com/user-attachments/assets/9476d7c3-aac9-44f6-9f89-f6b41c51d128)
+module funct1(a, b, c1, c2, c3, c4, c5, c6, c7);
 
+input a,b;
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+output c1, c2, c3, c4, c5, c6, c7;
+
+assign c1 = ~a;
+
+assign c2 = a & b;
+
+assign c3 = a | b;
+
+assign c4 = ~(a & b);
+
+assign c5 = ~(a | b);
+
+assign c6 = a^b;
+
+assign c7 = ~(a^b);
+
+endmodule
+
 
  Developed by: Lathika Sree R RegisterNumber: 24009760
  
